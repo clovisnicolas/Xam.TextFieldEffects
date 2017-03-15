@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xam.TextFieldEffects</id>
+    <version>0.1</version>
+    <title>TextFieldEffects for Xamarin.iOS</title>
+    <authors>Clovis Nicolas</authors>
+    <owners>Clovis Nicolas</owners>
+    <projectUrl>https://github.com/clovisnicolas/Xam.TextFieldEffects</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Xamarin.iOS binding for TextFieldEffects Swift Library</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Xamarin, iOS, Binding, TextField, Effects, TextFieldEffects</tags>
+    <dependencies>
+     <dependency id="Xamarin.Swift3" version="3.0.0" />
+     <dependency id="Xamarin.Swift3.Core" version="3.0.2" />
+     <dependency id="Xamarin.Swift3.CoreGraphics" version="3.0.2" />
+     <dependency id="Xamarin.Swift3.CoreImage" version="3.0.2" />
+     <dependency id="Xamarin.Swift3.Darwin" version="3.0.2" />
+     <dependency id="Xamarin.Swift3.Dispatch" version="3.0.2" />
+     <dependency id="Xamarin.Swift3.Foundation" version="3.0.2" />
+     <dependency id="Xamarin.Swift3.ObjectiveC" version="3.0.2" />
+     <dependency id="Xamarin.Swift3.QuartzCore" version="3.0.2" />
+     <dependency id="Xamarin.Swift3.SIMD" version="3.0.2" />
+     <dependency id="Xamarin.Swift3.UIKit" version="3.0.2" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin/Release/Xam.TextFieldEffects.dll" target="lib/Xamarin.iOS10/Xam.TextFieldEffects.dll" />
+  </files>
+</package>
